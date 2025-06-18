@@ -7,7 +7,7 @@ This project provides an automated solver for Kahoot quizzes using OCR, AI (Goog
 - Captures screenshots of the Kahoot quiz.
 - Extracts question and answer text using OCR.
 - Uses Google Gemini AI to predict the correct answer.
-- Automatically clicks the predicted answer on the screen.
+- Automatically clicks the predicted answer on the screen.(*doesnt work yet*)
 - Terminal version for command-line usage.
 - GUI interface (in progress) to input API key, start/stop the solver, and view real-time logs.
 
