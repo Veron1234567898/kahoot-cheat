@@ -1,0 +1,7 @@
+mss
+Pillow
+pytesseract
+pynput
+google-generativeai
+pyautogui
+pandas
