@@ -1,6 +1,6 @@
 # Kahoot Auto Answer
 
-This project provides an automated solver for Kahoot quizzes using OCR, AI (Google Gemini API), and screen interaction. It includes a GUI for easy usage.
+This project provides an automated solver for Kahoot quizzes using OCR, AI (Google Gemini API), and screen interaction. It includes both a terminal version and a GUI version (currently in development).
 
 ## Features
 
@@ -8,7 +8,8 @@ This project provides an automated solver for Kahoot quizzes using OCR, AI (Goog
 - Extracts question and answer text using OCR.
 - Uses Google Gemini AI to predict the correct answer.
 - Automatically clicks the predicted answer on the screen.
-- GUI interface to input API key, start/stop the solver, and view real-time logs.
+- Terminal version for command-line usage.
+- GUI interface (in progress) to input API key, start/stop the solver, and view real-time logs.
 
 ## Requirements
 
@@ -33,17 +34,25 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Run the GUI:
+### Terminal Version
+
+Run the solver directly from the command line:
+
+```bash
+python kahoot_auto_answer/main.py
+```
+
+Make sure to set the `GEMINI_API_KEY` environment variable before running.
+
+### GUI Version (In Progress)
+
+Run the GUI application:
 
 ```bash
 python kahoot_auto_answer/gui.py
 ```
 
-2. Enter your Gemini API key in the GUI.
-
-3. Click "Start Auto Answer" to begin.
-
-4. Use the "Stop Auto Answer" button to stop the process.
+Enter your Gemini API key in the GUI, then click "Start Auto Answer" to begin. Use the "Stop Auto Answer" button to stop the process.
 
 ## Notes
 
