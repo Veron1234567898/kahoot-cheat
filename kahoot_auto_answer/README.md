@@ -59,6 +59,7 @@ Enter your Gemini API key in the GUI, then click "Start Auto Answer" to begin. U
 - Ensure the Kahoot quiz is visible on the screen for accurate OCR.
 - The AI model requires a valid Gemini API key.
 - The project uses `pyautogui` for screen interaction; ensure permissions are granted.
+- Please understand that the ai can make mistakes as well as misinterperating other words, this is entirely **experimental** and is only done for fun, however, i might improve this software, but i hate python, so time will tell
 
 ## License
 
